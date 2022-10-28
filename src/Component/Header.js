@@ -1,7 +1,6 @@
 import React from "react";
 import { AiOutlineMenu} from 'react-icons/ai';
 import logo from '../images/logo.png';
-import Search from "../pages/Search";
 import {Link} from 'react-router-dom';
 
 function Header(){
@@ -9,7 +8,6 @@ function Header(){
 <>
 <header>
       <div>
-        <Search />
         <h1>
           <Link to="/">
             <img src={logo} alt="Tiffany &amp; Prisim" /></Link></h1>
