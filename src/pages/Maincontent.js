@@ -20,34 +20,28 @@ function Maincontent(){
         <div id="ul_containbox">
     <ul>
       <li className="#mainimg1">
-        <img src={Box11} />
+        <img src={Box11}  alt="주얼리1"/>
         <span>가장 인기있는 티파니 주얼리</span>
         <span>가장 인기있는 티파니 주얼리를 만나보세요.</span>
       </li>
       <li className="#mainimg2">
-      <img src={Box23} />
+      <img src={Box23} alt="주얼리2"/>
         <span>한여름의 열기</span>
         <span>지금까지 만나본 적 없던 스털링 실버</span>
       </li>
       <li className="#mainimg3">
-      <img src={Set01} />
+      <img src={Set01} alt="주얼리3"/>
         <span>나만의 뉴욕</span>
         <span>뉴욕의 거리에서 촬영한 티파니 노트 캠페인의 비하인드 씬을 만나보세요.</span>
       </li>
       <li className="#mainimg4">
-      <img src={Box14} />
+      <img src={Box14} alt="주얼리4"/>
         <span>독보적인 디자인</span>
         <span>Tiffany HardWear와 함께라면 불가능은 없습니다.</span>
       </li>
     </ul>
     <p id="prev"><AiOutlineArrowLeft /></p>
     <p id="next"><AiOutlineArrowRight /></p>
-
-    <p class="no">
-      <a href=".mainimg1"></a>
-      <a href=".mainimg2"></a>
-      <a href=".mainimg3"></a>
-      <a href=".mainimg4"></a></p>
       </div>
       </div>
 </article>

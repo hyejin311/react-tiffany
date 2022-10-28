@@ -14,8 +14,8 @@ function Header(){
           <Link to="/">
             <img src={logo} alt="Tiffany &amp; Prisim" /></Link></h1>
         <ul>
-          <li><a href="#">로그인</a></li>
-          <li><a href="#">회원가입</a></li>
+          <li>로그인</li>
+          <li>회원가입</li>
         </ul>
       </div>
       <p id="headbtn"> <AiOutlineMenu /> </p>

@@ -9,10 +9,10 @@ function Footer(){
     return(
 <footer>
 <ul>
-    <li><a href="#">개인정보처리방침</a></li>
-    <li><a href="#">이용약관</a></li>
-    <li><a href="#">영상정보처리기기운영・관리 방침</a></li>
-    <li><a href="#">입점문의</a></li>
+    <li>개인정보처리방침</li>
+    <li>이용약관</li>
+    <li>영상정보처리기기운영・관리 방침</li>
+    <li>입점문의</li>
 </ul>
 
 <dl>
@@ -33,14 +33,14 @@ function Footer(){
 </dl>
 
 <ul>
-    <li><a href="#">
-        <img src={Sns01} alt="트위터" /></a></li>
-    <li><a href="#">
-        <img src={Sns02} alt="페이스북" /></a></li>
-    <li><a href="#">
-        <img src={Sns03} alt="구글" /></a></li>
-    <li><a href="#">
-        <img src={Sns04} alt="인스타그램" /></a></li>
+    <li>
+        <img src={Sns01} alt="트위터" /></li>
+    <li>
+        <img src={Sns02} alt="페이스북" /></li>
+    <li>
+        <img src={Sns03} alt="구글" /></li>
+    <li>
+        <img src={Sns04} alt="인스타그램" /></li>
 </ul>
 <small>&copy; 2022 SHINSEGAE ALL RIGHTS RESERVED</small>
 </footer>
