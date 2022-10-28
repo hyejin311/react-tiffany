@@ -12,11 +12,11 @@ function Navmenu04(){
     <ul>
         <li>
             <label for="userName">Name</label>
-            <input type="text" id="userName" placeholder="강해린" /></li>
+            <input type="text" id="userName" placeholder="조혜진" /></li>
 
         <li>
             <label for="userEmail">Email</label>
-            <input type="text" id="userEmail" placeholder="abc@naver.com" /></li>
+            <input type="text" id="userEmail" placeholder="리액트 Link to@naver.com" /></li>
 
         <li>
             <label for="userTel">Phone</label>
@@ -24,7 +24,7 @@ function Navmenu04(){
 
         <li>
             <label for="userMessage">Message</label>
-            <textarea name="userMessage" id="userMessage" cols="30" rows="10" placeholder="Hear You" /></li>
+            <textarea name="userMessage" id="userMessage" cols="30" rows="10" placeholder="리액트 라우터 연습" /></li>
     </ul>
     <p className="submit_btn">
         <input type="submit" value="submit" />
